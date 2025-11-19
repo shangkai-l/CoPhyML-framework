@@ -30,5 +30,11 @@ The repository is organized into three main modules:
 ---
 
 ## ✨ Dataset
-The format of the original dataset used for the calculation is shown in the following figure
+The format of the original dataset used for the calculation is shown in the following figure, Corresponding to "tj9_ori.xlsx" in the program "Construction training prediction of different models.py"
 <img width="1020" height="145" alt="db308c2084660b85ad143251b681d501" src="https://github.com/user-attachments/assets/14a5e67b-2bef-423b-8c9f-59d4caf53c49" /># CoPhyML-framework
+
+Based on the program 'Knowledge driven implementation.py', the original data 'tj9_ori.xlsx' can be converted into 'tj9_pi.xlsx'. The specific data format as shown in the following figure:
+<img width="1161" height="164" alt="8a50bc08-5812-4f7a-9143-f635c522b8fa" src="https://github.com/user-attachments/assets/c6f97c9a-f210-4a6a-baa1-1836e15802c9" />
+
+
+
