@@ -27,3 +27,8 @@ The repository is organized into three main modules:
   Provides scripts for generating figures and quantitative evaluations.
 
 
+---
+
+## ✨ Dataset
+The format of the original dataset used for the calculation is shown in the following figure
+<img width="1020" height="145" alt="db308c2084660b85ad143251b681d501" src="https://github.com/user-attachments/assets/14a5e67b-2bef-423b-8c9f-59d4caf53c49" /># CoPhyML-framework
