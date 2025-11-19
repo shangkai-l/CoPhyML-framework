@@ -151,5 +151,7 @@ write_path_ = r'C:\Users\shangkai\tool.xlsx'
 read_path_ = r'D:\p-excel\shangkai\tj9_use_for_pi.xlsx'
 model = linear_model.Lasso(alpha=1e-10, fit_intercept=True, positive=False,
                             random_state=0, max_iter=500000, selection='random', tol=1e-20)
+
 pi_data, coefficient_ = traversing_the_basic_quantity(read_path_, write_path_, target_label=1, model=model,
                                                       get_all_combination_label=0, data_set=1, base_combination=[0, 3, 5])
+
