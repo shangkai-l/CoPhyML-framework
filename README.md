@@ -1,4 +1,5 @@
-<img width="1020" height="145" alt="db308c2084660b85ad143251b681d501" src="https://github.com/user-attachments/assets/14a5e67b-2bef-423b-8c9f-59d4caf53c49" /># CoPhyML-framework
+# CoPhyML: Coordinated Physics-Integrated Machine Learning Framework
+
 CoPhyML is a coordinated physics-integrated machine learning framework designed for reliable modeling of complex engineering systems under limited and noise-contaminated data. The framework consists of three components: a knowledge-driven module, a data-driven module, and an integration layer.
 
 This repository provides the official implementation of **CoPhyML**, a coordinated physics-integrated machine learning framework proposed in our paper:
@@ -25,9 +26,4 @@ The repository is organized into three main modules:
 - **Reproducible result visualization**  
   Provides scripts for generating figures and quantitative evaluations.
 
----
-
-## ✨ Dataset
-The format of the original dataset used for the calculation is shown in the following figure
-<img width="1020" height="145" alt="db308c2084660b85ad143251b681d501" src="https://github.com/user-attachments/assets/b0afb6fd-fafc-4542-8284-094059f0c6d9" />
 
