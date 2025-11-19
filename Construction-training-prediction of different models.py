@@ -195,10 +195,10 @@ def residual_block(x, filters):
 def create_dnn_model(input_shape):
     inputs = layers.Input(shape=input_shape)
     x = layers.BatchNormalization()(inputs)
-    x = residual_block(x, 16)  # 残差块
-    x = residual_block(x, 32)  # 残差块
-    x = residual_block(x, 64)  # 残差块
-    x = residual_block(x, 32)  # 残差块
+    x = residual_block(x, 16)  # residual_block
+    x = residual_block(x, 32)  
+    x = residual_block(x, 64)  
+    x = residual_block(x, 32) 
 
     x = layers.Dense(16, activation='relu')(x)
     x = layers.Dropout(0.2)(x)
@@ -255,9 +255,9 @@ just_pre_all = clf.predict(X)
 
 #  —————————————————————————————————————————Translate the target quantity based on whether knowledge is embedded or not
 if knowledge_label != 0:
-    Diameter = 6.34  # 天津9/3 使用
-    true_test_pre = just_pre * y_test[:, 5] * (Diameter ** 2)   # 推力使用
-    true_pre = just_pre_all * y_use[:, 5] * (Diameter ** 2)  # 推力使用
+    Diameter = 6.34  # Tianjin 9 use
+    true_test_pre = just_pre * y_test[:, 5] * (Diameter ** 2)
+    true_pre = just_pre_all * y_use[:, 5] * (Diameter ** 2)
     print(compute_result(y_test[:, 6 + target], true_test_pre))
     pic_pred = true_pre
 else:
@@ -281,3 +281,4 @@ plt.show()
 merged_array2 = np.column_stack((y_use[:, -(3 - target)], pic_pred, y_use[:, target], just_pre_all))
 pd.DataFrame(merged_array2).to_excel(r'D:\shangkai\results.xlsx')
 #  —————————————————————————————————————————Save the results
+
