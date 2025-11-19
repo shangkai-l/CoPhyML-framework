@@ -12,8 +12,17 @@ CoPhyML aims to enable reliable modeling and prediction under limited and noisy 
 ## 🔍 Repository Structure
 
 The repository is organized into three main modules:
-CoPhyML-framework/
-│
-├── data_processing/ # Data preprocessing and dimensional analysis (π-factor construction)
-├── model_prediction/ # Model training, prediction, and evaluation
-└── result_visualization/ # Result analysis and plotting scripts
+---
+
+## ✨ Features
+
+- **Knowledge-driven preprocessing**  
+  Implements dimensional analysis and constructs intrinsic, scale-independent π factors.
+
+- **Robust model learning under limited/noisy data**  
+  Integrates physics-informed representations into machine learning pipelines.
+
+- **Reproducible result visualization**  
+  Provides scripts for generating figures and quantitative evaluations.
+
+---
