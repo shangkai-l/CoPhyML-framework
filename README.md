@@ -15,18 +15,17 @@ CoPhyML aims to enable reliable modeling and prediction under limited and noisy 
 The repository is organized into three main modules:
 ---
 
-## ✨ Features
-
 - **Knowledge-driven preprocessing**  
   Implements dimensional analysis and constructs intrinsic, scale-independent π factors.
 
-- **Robust model learning under limited/noisy data**  
-  Integrates physics-informed representations into machine learning pipelines.
+- **Model learning under limited/noisy data**  
+  Integrates physics-informed representations into machine learning pipelines, and the establishment of comparative models.
 
-- **Reproducible result visualization**  
-  Provides scripts for generating figures and quantitative evaluations.
+- **Analysis of results under dataset perturbation**  
+  Provide scripts for modeling and computation on perturbed datasets.
 
-
+- **Display of key calculation output data**  
+  Provided the measured-predicted results of CoPhyML-1 and CoPhyML-2, as well as the standard deviation of various methods predicting fluctuations at different test samples under data perturbation.
 ---
 
 ## ✨ Dataset
