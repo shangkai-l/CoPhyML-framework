@@ -12,7 +12,7 @@ CoPhyML aims to enable reliable modeling and prediction under limited and noisy 
 
 ## 🔍 Repository Structure
 
-The repository is organized into three main modules:
+The repository is organized into four main modules:
 ---
 
 - **Knowledge-driven preprocessing**  
